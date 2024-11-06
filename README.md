@@ -1,8 +1,17 @@
-# React + Vite
+# Movie Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application allows users to search for movies, view detailed movie information, and manage a list of favorites. The application integrates with the OMDB API to fetch movie data.
 
-Currently, two official plugins are available:
+## Features
+- Search for movies by title.
+- View detailed movie information (e.g., plot, cast, ratings).
+- Add and remove movies from your favorites list.
+- Pagination for large sets of results.
+- Type and Year filtering using the OMDB API.
+- Error handling and user-friendly messages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gowthamansv/movie-search.git
