@@ -50,7 +50,7 @@ function ResultsPage({ addToFavorites }) {
         ))}
       </div>
       {showFilterOverlay && (
-        <FilterOverlay onApply={handleApplyFilter} onClose={() => setShowFilterOverlay(false)} />
+        <FilterOverlay onApply={handleApplyFilter} onClose={() => setShowFilterOverlay(false)} setPage={setPage} />
       )}
       <div className="pb-10">
         <button onClick={handlePreviousPage} disabled={page === 1} className='hover:bg-darkBrown hover:bg-opacity-50 px-2 m-1 py-0 rounded-full'>

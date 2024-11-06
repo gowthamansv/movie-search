@@ -1,13 +1,14 @@
 // src/components/FilterOverlay.js
 import React, { useState } from 'react';
 
-function FilterOverlay({ onApply, onClose }) {
+function FilterOverlay({ onApply, onClose , setPage }) {
   const [type, setType] = useState('');
   const [year, setYear] = useState('');
 
   const handleApply = () => {
     onApply({ type, year });
     onClose();
+    setPage(1);
   };
 
   return (
