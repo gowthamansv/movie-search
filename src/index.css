@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #d2b48c;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , p {
+    color: #5e503f;
+}
